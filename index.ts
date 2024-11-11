@@ -3,7 +3,7 @@ const sqlite3 = require("sqlite3").verbose();
 const app = express();
 const port = process.env.PORT || 4000;
 
-const gameRoutes = require("./routes/game");
+const gameRoutes = require("./routes/games");
 
 // Connect to SQLite database
 const db = new sqlite3.Database("./db.sqlite", (err) => {
