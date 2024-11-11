@@ -1,0 +1,13 @@
+db.sqlite
+*.log
+node_modules/
+.DS_Store
+.env
+*.pyc
+__pycache__/
+.idea/
+.vscode/
+dist/
+build/
+coverage/
+*.swp
